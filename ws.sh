@@ -4,7 +4,7 @@
 
 # Getting Proxy Template
 wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh
-rm -r /user/bin/usernew
+rm -r /usr/bin/usernew
 chmod +x usernew.sh
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
 chmod +x /usr/local/bin/edu-proxy
