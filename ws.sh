@@ -4,7 +4,7 @@
 
 # Ganti Usernew
 sudo rm -r /usr/bin/usernew
-wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh
+wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh && chmod +x usernew.sh
 mv usernew.sh /usr/bin/usernew
 
 # Getting Proxy Template
