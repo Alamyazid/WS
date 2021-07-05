@@ -28,7 +28,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 END
-mv usernew.sh /usr/bin/usernew
+
 systemctl daemon-reload
 systemctl enable edu-proxy
 systemctl restart edu-proxy
