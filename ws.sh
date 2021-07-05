@@ -3,7 +3,6 @@
 # ==============================
 
 # Ganti Usernew
-sudo rm -r /usr/bin/usernew
 wget https://github.com/Alamyazid/WS/blob/main/usernew.sh
 
 
