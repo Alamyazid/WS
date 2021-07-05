@@ -12,8 +12,8 @@ chmod +x /usr/local/bin/edu-proxy
 # Installing Service
 cat > /etc/systemd/system/edu-proxy.service << END
 [Unit]
-Description=Python Edu Proxy By Gugun Service
-Documentation=https://queenssh.me
+Description=
+Documentation=
 After=network.target nss-lookup.target
 
 [Service]
@@ -28,7 +28,7 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 END
-
+mv usernew.sh /usr/bin/usernew
 systemctl daemon-reload
 systemctl enable edu-proxy
 systemctl restart edu-proxy
