@@ -2,6 +2,11 @@
 # Proxy For Edukasi & Imclass
 # ==============================
 
+# Ganti Usernew
+sudo rm -r /usr/bin/usernew
+wget github.com/usernew
+mv usernew.sh /usr/bin/usernew
+
 # Getting Proxy Template
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
 chmod +x /usr/local/bin/edu-proxy
