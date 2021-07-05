@@ -3,7 +3,7 @@
 # ==============================
 
 # Ganti Usernew
-wget https://github.com/Alamyazid/WS/blob/main/usernew.sh
+wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh
 
 
 # Getting Proxy Template
