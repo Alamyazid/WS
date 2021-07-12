@@ -7,7 +7,7 @@
 #chmod +x usernew.sh
 #sudo rm -r /usr/bin/usernew
 #sudo mv usernew.sh /usr/bin/usernew
-wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
+wget -q -O /usr/local/bin/edu-proxy1 https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
 chmod +x /usr/local/bin/edu-proxy1
 
 # Installing Service
