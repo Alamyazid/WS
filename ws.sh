@@ -8,10 +8,10 @@
 #sudo rm -r /usr/bin/usernew
 #sudo mv usernew.sh /usr/bin/usernew
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
-chmod +x /usr/local/bin/edu-proxy
+chmod +x /usr/local/bin/edu-proxy1
 
 # Installing Service
-cat > /etc/systemd/system/edu-proxy.service << END
+cat > /etc/systemd/system/edu-proxy1.service << END
 [Unit]
 Description=
 Documentation=
@@ -23,7 +23,7 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy 443
+ExecStart=/usr/bin/python -O /usr/local/bin/edu-proxy1 443
 Restart=on-failure
 
 [Install]
@@ -31,7 +31,7 @@ WantedBy=multi-user.target
 END
 
 systemctl daemon-reload
-systemctl enable edu-proxy
-systemctl restart edu-proxy
+systemctl enable edu-proxy1
+systemctl restart edu-proxy1
 
 clear
