@@ -2,11 +2,11 @@
 # Proxy For Edukasi & Imclass
 # ==============================
 
-# Getting Proxy Template
-#wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh
-#chmod +x usernew.sh
-#sudo rm -r /usr/bin/usernew
-#sudo mv usernew.sh /usr/bin/usernew
+#Getting Proxy Template
+wget https://raw.githubusercontent.com/Alamyazid/WS/main/usernew.sh
+chmod +x usernew.sh
+sudo rm -r /usr/bin/usernew
+sudo mv usernew.sh /usr/bin/usernew
 wget -q -O /usr/local/bin/edu-proxy https://raw.githubusercontent.com/Alamyazid/WS/main/ws.py
 chmod +x /usr/local/bin/edu-proxy
 
